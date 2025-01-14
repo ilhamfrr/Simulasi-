@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Background gelap */
+    text-align: center;
+    color: #ffffff; /* Teks putih */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Warna latar belakang kontainer */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.balance {
+    margin-bottom: 20px;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reel {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ffffff; /* Border putih */
+    margin: 0 10px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333; /* Warna latar belakang reel */
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #007BFF; /* Warna tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna tombol saat hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.noted {
+    font-weight: 200;
+    color: aqua;
+}

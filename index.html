@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slot Machine Modern</title>
+</head>
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="/assets/sound/Noise - Fuck Your Jaksel Lifestyle - HBRP Remix ( Lyrics ) [u4WFdXmMlg8].mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="spinSound">
+        <source src="/assets/sound/spinning-steampunk-gadget-open-close-188050.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="winSound">
+        <source src="win.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+        <h1>Selamat Datang di Judi Mulu Kaya Kaga</h1>
+        <h3 class="noted"><marquee>Ini Hanya Simulasi Judol, Jangan Lu colong Codenya</marquee></h3>
+        <div class="balance">
+            <h2>Saldo: <span id="balance">100</span> 💰</h2>
+        </div>
+        <div class="slot-machine">
+            <div class="reel" id="reel1"></div>
+            <div class="reel" id="reel2"></div>
+            <div class="reel" id="reel3"></div>
+        </div>
+        <button id="spinButton">Putar!</button>
+        <div id="result"></div>
+        <div class="controls">
+            <input type="number" id="amount" placeholder="Jumlah" min="1">
+            <button id="depositButton">Deposit</button>
+            <button id="withdrawButton">Withdraw</button>
+        </div>
+        <!-- <button id="toggleDarkMode">Toggle Dark Mode</button> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
